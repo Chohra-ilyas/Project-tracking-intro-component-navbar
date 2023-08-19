@@ -31,6 +31,9 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+.headerlogo{
+    margin-right: 80px;
+}
 .graydiv{
     position: absolute;
     background-color: var(--Light-Grayish-Blue);
@@ -89,7 +92,7 @@ a:hover{
     bottom: 5px;
     transform: rotate(-45deg);
 }
-@media (max-width : 1050px){
+@media (max-width : 800px){
     .humburger{
         display: flex;
         flex-flow: column;
