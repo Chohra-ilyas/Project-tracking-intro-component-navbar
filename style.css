@@ -16,8 +16,7 @@ body {
     font-family: "Barlow", sans-serif;
     color: hsl(230, 29%, 20%);
     background-color: #fff;
-    overflow: hidden;
-    scroll-padding-right: 0;
+    overflow-x: hidden;
   }
 .humburger{
     display: none;
